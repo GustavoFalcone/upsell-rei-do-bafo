@@ -16,208 +16,149 @@ export default function UpsellPage() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
           </svg>
           <span className="text-sm sm:text-base font-semibold uppercase tracking-wider">
-            Compra do Rei do Bafo aprovada
+            Compra do Rei do Bafo aprovada!
           </span>
         </div>
 
         {/* HEADLINE PRINCIPAL */}
-        <header className="text-center mb-8 animate-slide-up">
-          <p className="text-brasa text-xs sm:text-sm font-bold uppercase tracking-[0.2em] mb-3">
-            Espera. Não feche essa página.
+        <header className="text-center mb-6 animate-slide-up px-2">
+          <p className="text-brasa text-xs sm:text-sm font-bold uppercase tracking-[0.2em] mb-2">
+            ATENÇÃO: Não feche ou atualize esta página!
           </p>
-          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl leading-[0.95] uppercase text-stroke">
-            Sua entrega está sendo liberada.
-            <span className="block text-brasa animate-glow mt-3">
-              Enquanto isso, leia isto.
-            </span>
+          <h1 className="font-display text-[6.2vw] sm:text-4xl md:text-5xl lg:text-6xl leading-none uppercase text-stroke whitespace-nowrap">
+            SEU ACESSO ESTÁ QUASE PRONTO.
           </h1>
-          <p className="text-white/80 text-base sm:text-lg mt-5 max-w-2xl mx-auto leading-relaxed">
-            Você acabou de comprar a técnica para virar figurinha. Beleza. Mas tem um detalhe que ninguém te conta na roda...
-          </p>
+          <h2 className="font-display text-[5.5vw] sm:text-3xl md:text-4xl lg:text-5xl leading-none uppercase text-brasa animate-glow mt-2 whitespace-nowrap">
+            VEJA ISTO ANTES DE COMEÇAR:
+          </h2>
         </header>
 
         {/* CARD DA OFERTA */}
-        <section className="bg-gradient-to-b from-fumaca to-black border-2 border-sangue rounded-2xl p-6 sm:p-10 mb-8 shadow-[0_0_60px_rgba(179,0,0,0.35)] relative overflow-hidden">
+        <section className="bg-gradient-to-b from-fumaca to-black border-2 border-sangue rounded-2xl p-6 sm:p-8 mb-6 shadow-[0_0_60px_rgba(179,0,0,0.35)] relative overflow-hidden">
 
           {/* Selo "exclusivo" */}
-          <div className="absolute -top-3 -right-3 sm:-right-4 bg-dourado text-black stamp text-xs sm:text-sm">
-            Só nesta tela
+          <div className="absolute -top-3 -right-3 sm:-right-4 bg-dourado text-black stamp text-xs sm:text-sm font-bold">
+            Oportunidade Única
           </div>
 
           <div className="text-center mb-6">
             <p className="text-dourado font-bold uppercase text-xs tracking-widest mb-2">
-              Aceleração de Resultado &middot; Item Adicional
+              Item Adicional &middot; Aceleração de Resultados
             </p>
             <h2 className="font-display text-3xl sm:text-5xl uppercase leading-tight">
-              O técnico que vira figurinha ganha.
-              <span className="block text-brasa mt-2">O técnico que faz o outro APOSTAR... rapela.</span>
+              O técnico vira figurinha,
+              <span className="block text-brasa mt-1"> MAS O PREDADOR RAPELA A RODA INTEIRA.</span>
             </h2>
           </div>
 
-          {/* O argumento central */}
-          <div className="space-y-4 text-white/90 text-base sm:text-lg leading-relaxed mb-8">
+          {/* O argumento central curto e matador */}
+          <div className="text-white/90 text-base sm:text-lg leading-relaxed mb-6 space-y-3">
             <p>
-              Pensa comigo. O cara que sai de toda roda com o bolso cheio não é só quem bate melhor. É quem faz o outro <strong className="text-white">apostar a figurinha boa</strong> achando que vai vencer fácil.
+              Você comprou a técnica definitiva para virar figurinhas. <strong className="text-white">Mas tem um problema:</strong> se você ganhar todas as rodadas em 2 minutos, <strong className="text-white">ninguém mais vai querer bater contra você</strong>. Aí você deixa de ganhar muito mais figurinhas
             </p>
-            <p>
-              Você pode virar 100 figurinhas num tapa. Mas se o cara da roda só te aposta repetida e some quando você puxa a lateral rara, sua técnica não rendeu nada. Você ganhou o tapa e perdeu a noite.
+            <p className="text-brasa font-bold">
+              Você precisa dominar a mente do seu oponente.
             </p>
-            <p className="text-brasa font-bold text-lg sm:text-xl">
-              É aí que entra o lado que o álbum não te conta: a cabeça do oponente.
-            </p>
-          </div>
-
-          {/* DIVISOR */}
-          <div className="flex items-center gap-3 my-8">
-            <div className="flex-1 h-px bg-sangue/40" />
-            <span className="text-dourado font-display text-xl uppercase">A oferta</span>
-            <div className="flex-1 h-px bg-sangue/40" />
           </div>
 
           {/* NOME DO PRODUTO */}
-          <div className="text-center mb-6">
-            <p className="text-white/60 uppercase text-xs tracking-widest mb-2">
-              Método complementar do Rei do Bafo
+          <div className="text-center mb-6 border-y border-sangue/20 py-4">
+            <p className="text-white/60 uppercase text-xs tracking-widest mb-1">
+              MÉTODO COMPLEMENTAR EXCLUSIVO
             </p>
-            <h3 className="font-display text-5xl sm:text-7xl text-brasa uppercase animate-glow leading-none">
-              Modo Predador
+            <h3 className="font-display text-4xl sm:text-6xl text-brasa uppercase animate-glow leading-none">
+              MODO PREDADOR
             </h3>
-            <p className="text-white/80 mt-3 text-sm sm:text-base italic">
-              Como fazer o outro apostar contra você, repetidamente, achando que está te dominando.
+            <p className="text-white/80 mt-2 text-sm sm:text-base italic">
+              Faça eles apostarem a coleção inteira contra você com um sorriso no rosto.
             </p>
           </div>
 
-          {/* O QUE VEM DENTRO */}
-          <div className="bg-black/60 border border-sangue/40 rounded-xl p-5 sm:p-6 mb-6">
-            <p className="font-bold text-dourado uppercase text-sm tracking-wider mb-4">
-              O que você descobre aqui dentro:
-            </p>
+          {/* O QUE VEM DENTRO (3 BULLETS CURTOS) */}
+          <div className="bg-black/60 border border-sangue/40 rounded-xl p-4 sm:p-5 mb-6">
             <ul className="space-y-3 text-white/90 text-sm sm:text-base">
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>As 4 frases curtas que você solta ANTES do tapa que fazem o cara dobrar a aposta sem perceber. Funciona inclusive com quem se acha o apelão da rua.</span>
+              <li className="flex gap-2">
+                <span className="text-brasa font-display text-lg leading-none">&#9656;</span>
+                <span>O que dizer antes de jogar a primeira rodada para o oponente apostar o dobro na próxima</span>
               </li>
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>A leitura de mão que mostra se o oponente está com medo, blefando ou prestes a desistir. Você vê isso em 2 segundos, antes de bater.</span>
+              <li className="flex gap-2">
+                <span className="text-brasa font-display text-lg leading-none">&#9656;</span>
+                <span>Quando você deve &quot;perder&quot; uma de propósito para alimentar o ego dele</span>
               </li>
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>A jogada da figurinha-isca. Você &quot;perde&quot; uma de propósito, e nas próximas 3 rodadas o cara aposta a coleção inteira contra você.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>Como evitar a fuga. Aquele momento em que o cara percebe que está perdendo e tenta sair da roda &mdash; você vai aprender a prendê-lo até o último pacote.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>Linguagem corporal que intimida sem agredir. A diferença entre o cara que &quot;todo mundo respeita&quot; e o cara que sempre é desafiado.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-brasa font-display text-xl leading-none">&#9656;</span>
-                <span>O gatilho do ego masculino: a brecha psicológica que faz qualquer competidor querer revanche, mesmo já tendo perdido a figurinha rara.</span>
+              <li className="flex gap-2">
+                <span className="text-brasa font-display text-lg leading-none">&#9656;</span>
+                <span>Deixe-o viciado em apostar, sem ele perceber</span>
               </li>
             </ul>
           </div>
 
-          {/* DEIXAR DE GANHAR */}
-          <div className="bg-sangue/10 border-l-4 border-brasa pl-5 py-4 mb-6">
-            <p className="text-white/90 text-sm sm:text-base leading-relaxed">
-              <strong className="text-brasa">Pensa direito.</strong> Você comprou a técnica de virar figurinha. Vai sair ganhando, beleza. Mas todo cara que aprende a técnica chega na roda e vence 1, 2, 3 partidas, e depois ninguém quer mais bater contra ele. A roda fecha. O lucro trava.
-            </p>
-            <p className="text-white mt-3 font-bold text-sm sm:text-base">
-              O Modo Predador resolve isso. Faz o oponente continuar apostando contra você por horas, com sorriso no rosto, achando que a próxima rodada é dele.
-            </p>
-          </div>
-
           {/* COMPARATIVO DE VALOR */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-            <div className="bg-black/50 border border-white/10 rounded-lg p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+            <div className="bg-black/50 border border-white/10 rounded-lg p-3">
               <p className="text-xs uppercase text-white/50 mb-1">Sem o Modo Predador</p>
-              <p className="text-white/90 text-sm">
-                Você vira figurinha. O cara some na 3ª rodada. Sai com 10 figurinhas no bolso. A roda esquece de te chamar amanhã.
+              <p className="text-white/80 text-xs sm:text-sm">
+                Você vira figurinhas, vence 3 rodadas e o cara desiste. Você sai com o suficiente, mas sabendo que poderia ganhar mais.
               </p>
             </div>
-            <div className="bg-sangue/20 border border-brasa rounded-lg p-4">
+            <div className="bg-sangue/25 border border-brasa rounded-lg p-3">
               <p className="text-xs uppercase text-brasa font-bold mb-1">Com o Modo Predador</p>
-              <p className="text-white text-sm">
-                Você vira figurinha E faz o cara apostar de novo, e de novo. Sai com a coleção. Volta amanhã porque ele vai querer revanche.
+              <p className="text-white text-xs sm:text-sm">
+                Eles imploram por revanche. Você limpa todas as raras e sai com a coleção inteira deles.
               </p>
             </div>
           </div>
 
           {/* PREÇO */}
-          <div className="text-center my-8">
-            <p className="text-white/60 line-through text-base">De R$ 97,00</p>
-            <p className="text-white/80 text-sm sm:text-base mb-1">
-              Acréscimo único no seu pedido:
+          <div className="text-center my-6">
+            <p className="text-white/40 line-through text-sm">De R$ 97,00</p>
+            <p className="text-white/80 text-xs sm:text-sm mb-1 font-semibold">
+              Aproveite AGORA por apenas:
             </p>
-            <p className="font-display text-6xl sm:text-7xl text-brasa leading-none animate-glow">
+            <p className="font-display text-5xl sm:text-6xl text-brasa leading-none animate-glow">
               R$ 29,90
             </p>
-            <p className="text-white/60 text-xs sm:text-sm mt-2">
-              à vista &middot; cobrado no mesmo cartão da compra anterior
+            <p className="text-white/60 text-[10px] sm:text-xs mt-2">
+              Cobrança única e imediata no mesmo cartão.
             </p>
           </div>
 
           {/* BOTÕES */}
-          <div className="space-y-4">
+          <div className="space-y-3">
             <Link
               href="/sucesso"
-              className="block w-full text-center bg-gradient-to-b from-brasa to-sangue hover:from-sangue hover:to-sangueDark text-white font-display text-2xl sm:text-3xl uppercase py-5 sm:py-6 rounded-xl btn-primary-3d animate-pulse-strong transition-all"
+              className="block w-full text-center bg-gradient-to-b from-brasa to-sangue hover:from-sangue hover:to-sangueDark text-white font-display text-xl sm:text-2xl uppercase py-4 rounded-xl btn-primary-3d animate-pulse-strong transition-all"
             >
               SIM, QUERO O MODO PREDADOR
-              <span className="block text-sm sm:text-base font-body normal-case font-normal opacity-90 mt-1">
-                Adicionar por R$ 29,90 e continuar
+              <span className="block text-xs font-body normal-case font-normal opacity-90 mt-0.5">
+                Adicionar ao meu pedido por apenas R$ 29,90
               </span>
             </Link>
 
             <Link
               href="/downsell"
-              className="block w-full text-center text-white/50 hover:text-white/80 underline underline-offset-4 text-sm sm:text-base py-3 transition-colors"
+              className="block w-full text-center bg-white/5 hover:bg-white/10 active:bg-white/15 border border-white/15 hover:border-white/30 text-white/60 hover:text-white font-body text-xs sm:text-sm py-3 px-4 rounded-xl transition-all"
             >
-              Não, prefiro ir direto para o Rei do Bafo sem essa vantagem
+              Não, prefiro abrir mão dessa vantagem e ir sem o Modo Predador
             </Link>
           </div>
 
           {/* SELOS DE SEGURANÇA */}
-          <div className="flex flex-wrap items-center justify-center gap-4 mt-8 text-white/60 text-xs">
+          <div className="flex items-center justify-center gap-3 mt-6 text-white/50 text-[10px] sm:text-xs">
             <span className="flex items-center gap-1">
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 1l3 6 6 .9-4.5 4.4 1 6.7L10 16l-5.5 3 1-6.7L1 7.9 7 7l3-6z" clipRule="evenodd" /></svg>
-              Pagamento seguro
+              <svg className="w-3.5 h-3.5 text-dourado" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" /></svg>
+              Acesso imediato
             </span>
             <span>&middot;</span>
             <span>7 dias de garantia</span>
             <span>&middot;</span>
-            <span>Acesso vitalício</span>
-          </div>
-        </section>
-
-        {/* PROVA SOCIAL CURTA */}
-        <section className="mb-8">
-          <p className="text-center text-white/60 uppercase text-xs tracking-widest mb-4">
-            Quem já levou o Modo Predador
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-fumaca border border-white/10 rounded-lg p-4">
-              <p className="text-white/90 text-sm italic mb-2">
-                &quot;Achei que era papo de coach. Comprei porque tava barato. Primeira roda no domingo, o cara que sempre me zoava apostou 12 figurinhas de uma vez. Saí com 9 raras.&quot;
-              </p>
-              <p className="text-brasa text-xs font-bold">— Matheus, 24</p>
-            </div>
-            <div className="bg-fumaca border border-white/10 rounded-lg p-4">
-              <p className="text-white/90 text-sm italic mb-2">
-                &quot;A parte da figurinha-isca é cirúrgica. O cara perde uma, acha que tá comendo solto, e quando vê tá sem pacote nenhum. Já apliquei 3 vezes.&quot;
-              </p>
-              <p className="text-brasa text-xs font-bold">— Renan, 28</p>
-            </div>
+            <span>Pagamento 100% seguro</span>
           </div>
         </section>
 
         {/* AVISO FINAL */}
-        <div className="text-center text-white/50 text-xs sm:text-sm leading-relaxed px-2">
+        <div className="text-center text-white/40 text-xs leading-relaxed px-2">
           <p>
-            Esta oferta aparece uma única vez, agora, na liberação do seu acesso. Se você fechar essa página ou recusar, o Modo Predador volta para o valor cheio e some do seu pedido.
+            Esta oportunidade exclusiva expira assim que você sair desta página. Se recusar agora, o Modo Predador só poderá ser adquirido separadamente pelo preço oficial de R$ 97,00.
           </p>
         </div>
       </div>
