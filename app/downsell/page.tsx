@@ -88,7 +88,7 @@ export default function DownsellPage() {
           {/* BOTÕES */}
           <div className="space-y-3">
             <Link
-              href="/sucesso"
+              href="https://zuckpay.com.br/checkout/o-rei-do-bafo-modo-predador-c-desconto"
               className="block w-full text-center bg-gradient-to-b from-dourado to-yellow-600 hover:from-yellow-400 hover:to-dourado text-black font-display text-xl sm:text-2xl uppercase py-4 rounded-xl btn-primary-3d animate-pulse-strong transition-all"
             >
               OK, ME DÁ POR R$ 19,90

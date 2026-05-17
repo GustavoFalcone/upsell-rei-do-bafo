@@ -125,7 +125,7 @@ export default function UpsellPage() {
           {/* BOTÕES */}
           <div className="space-y-3">
             <Link
-              href="/sucesso"
+              href="https://zuckpay.com.br/checkout/o-rei-do-bafo-modo-predador"
               className="block w-full text-center bg-gradient-to-b from-brasa to-sangue hover:from-sangue hover:to-sangueDark text-white font-display text-xl sm:text-2xl uppercase py-4 rounded-xl btn-primary-3d animate-pulse-strong transition-all"
             >
               SIM, QUERO O MODO PREDADOR
